@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #2d2727;
+    padding: 50px;
+    margin-top: 200px;
+}
+
+h1 {
+  color: #851616;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.opcoes button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  align-items: center;
+}
+
+.opcoes button:hover {
+  transform: scale(1.1);
+  background-color: #908c8c;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resultado{
+    margin-top: 20px;
+    border-radius: 11px;
+    background-color: #199460;
+    color: white;
+    padding: 10px;
+}
